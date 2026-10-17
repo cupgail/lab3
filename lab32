@@ -1,0 +1,8 @@
+while True:
+    n = int(input("Введіть число: ")) # Зациклювання вводу та
+    if n < 10:                        # перевірки числа
+        continue
+    elif n > 100:
+        break
+    else:
+        print(n)

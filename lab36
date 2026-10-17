@@ -1,0 +1,10 @@
+counter = 0
+n1 = int(input())
+while True:
+    n2 = int(input())
+    if n2 > n1:
+        counter += 1
+    n1 = n2 
+    if n2 == 0:
+        print(counter)
+        break

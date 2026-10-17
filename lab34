@@ -1,0 +1,9 @@
+print("Напишіть 0 для завершення лічби")
+l = list()
+
+while True:
+     n = int(input())
+     if n == 0:
+          print(len(l))
+          break
+     l.append(n)

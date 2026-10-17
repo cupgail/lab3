@@ -1,0 +1,8 @@
+print("Напишіть q для завершення лічби")
+l = list()
+while True:
+     n = input()
+     l.append(n)
+     if n == "q":
+          print(l.count('0'))
+          break
